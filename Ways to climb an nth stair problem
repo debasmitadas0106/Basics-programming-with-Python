@@ -1,0 +1,12 @@
+#creating a function
+def stairs(n):
+#base conditions
+  if n==1:
+    return 1
+  elif n==2:
+    return 2
+  else:
+  #recursive call
+    return stairs(n-1)+stairs(n-2)
+
+print(stairs(4))
